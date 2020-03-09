@@ -1,0 +1,11 @@
+server:
+  port: 31001
+spring:
+  application:
+    name: xc-service-manager-cms
+  data:
+    mongodb:
+      uri: mongodb://192.168.25.100:27017
+      database: xc
+      username: rp
+      password: 123456
