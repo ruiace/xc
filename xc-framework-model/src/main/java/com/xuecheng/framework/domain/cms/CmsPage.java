@@ -33,6 +33,7 @@ public class CmsPage {
     private String pageParameter;
     //物理路径
     private String pagePhysicalPath;
+
     //类型（静态/动态）
     private String pageType;
     //页面模版

@@ -1,5 +1,6 @@
 package com.xuecheng.api.config;
 
+import com.github.xiaoymin.swaggerbootstrapui.annotations.EnableSwaggerBootstrapUI;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import springfox.documentation.builders.ApiInfoBuilder;
@@ -13,6 +14,7 @@ import springfox.documentation.swagger2.annotations.EnableSwagger2;
 //
 @Configuration
 @EnableSwagger2
+@EnableSwaggerBootstrapUI
 public class Swagger2Configuration {
     @Bean
     public Docket createRestApi() {
@@ -26,8 +28,8 @@ public class Swagger2Configuration {
 
     private ApiInfo apiInfo() {
         return new ApiInfoBuilder()
-                .title("学成网api文档")
-                .description("学成网api文档")
+                .title("xc - api文档")
+                .description("xc - api文档")
 //                .termsOfServiceUrl("/")
                 .version("1.0")
                 .build();

@@ -5,7 +5,7 @@ spring:
     name: xc-service-manager-cms
   data:
     mongodb:
-      uri: mongodb://192.168.25.100:27017
-      database: xc
-      username: rp
+      uri: mongodb://101.200.133.224:27017
+      database: cms
+      username: ruipeng
       password: 123456
